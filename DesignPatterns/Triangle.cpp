@@ -13,5 +13,5 @@ Triangle::~Triangle()
 
 void Triangle::update()
 {
-	std::cout << "I am a triangle" << std::endl;
+	std::cout << "I am a triangle!" << std::endl;
 }

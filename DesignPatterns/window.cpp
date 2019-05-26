@@ -16,7 +16,7 @@ Window* Window::getInstance()
 
 std::string Window::getWindowName()
 {
-	return "My singleton window";
+	return "My singleton prozor!";
 }
 
 void Window::update()
@@ -37,7 +37,7 @@ void Window::update()
 
 Window::Window()
 {
-	this->renderContext = new sf::RenderWindow(sf::VideoMode(800, 600), this->getWindowName());
+	renderContext = new sf::RenderWindow(sf::VideoMode(800, 600), this->getWindowName());
 }
 
 

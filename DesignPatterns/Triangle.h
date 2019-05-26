@@ -3,8 +3,7 @@
 
 
 #include "Shape.h"
-class Triangle :
-	public Shape
+class Triangle : public Shape
 {
 public:
 	void update();
