@@ -1,10 +1,10 @@
-#include "Shape.h"
+#include "GameObject.h"
 #include "Rectangle.h"
 #include "Triangle.h"
 
 
 
-Shape * Shape::createShape(std::string type)
+GameObject * GameObject::create(std::string type)
 {
 	if (type == "Triangle")
 	{
@@ -16,11 +16,11 @@ Shape * Shape::createShape(std::string type)
 	}
 }
 
-Shape::Shape()
+GameObject::GameObject()
 {
 }
 
 
-Shape::~Shape()
+GameObject::~GameObject()
 {
 }

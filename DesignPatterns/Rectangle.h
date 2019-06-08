@@ -1,8 +1,8 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
-#include "Shape.h"
+#include "GameObject.h"
 
-class Rectangle : public Shape
+class Rectangle : public GameObject
 {
 public:
 	void update();

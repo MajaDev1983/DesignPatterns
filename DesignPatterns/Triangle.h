@@ -2,8 +2,8 @@
 #define TRIANGLE_H
 
 
-#include "Shape.h"
-class Triangle : public Shape
+#include "GameObject.h"
+class Triangle : public GameObject
 {
 public:
 	void update();
