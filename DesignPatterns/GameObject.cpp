@@ -4,7 +4,7 @@
 
 
 
-GameObject * GameObject::create(std::string type)
+GameObject* GameObject::create(std::string type)
 {
 	if (type == "Triangle")
 	{
